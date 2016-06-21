@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:background="#fdffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.zzj.customvoice.CustomRadio
+        android:id="@+id/customRadio"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        zhy:bg="@mipmap/voice"
+        zhy:circleWidth="10dp"
+        zhy:spaceCount="4"
+        zhy:dotCount="16"
+        zhy:firstColor="#c9c8c8"
+        zhy:secondColor="#000102"
+        zhy:splitSize="25" />
+
+</RelativeLayout>
