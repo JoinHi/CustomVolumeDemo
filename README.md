@@ -1,6 +1,6 @@
 # CustomVolumeDemo
 一个显示音量增减的自定义view
-参照鸿洋大神的自定义view进行了一些修改，可以让周围的音量平均显示
+参照鸿洋大神的自定义view进行了一些修改，可以让周围的音量平均显示，支持上下滑动增减音量
 
     <com.zzj.customvoice.CustomRadio
         android:id="@+id/customRadio"
