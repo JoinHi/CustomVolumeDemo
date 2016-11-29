@@ -1,4 +1,4 @@
-package com.zzj.customdemo;
+﻿package com.zzj.customdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.widget.Toast;
 import com.zzj.customvoice.CustomRadio;
 
 public class MainActivity extends AppCompatActivity {
+//增加一行注释
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
