@@ -9,6 +9,8 @@ import com.zzj.customvoice.CustomRadio;
 public class MainActivity extends AppCompatActivity {
 //增加一行注释++++++++
 
+
+//第三行注释
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void volumeChange(int level) {
                     Toast.makeText(MainActivity.this,"当前音量"+level,Toast.LENGTH_SHORT).show();
+//第四行注释
                 }
             });
         }
